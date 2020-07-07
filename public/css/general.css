@@ -1,0 +1,47 @@
+.navbar{
+	background-color:  black;
+	
+}
+
+.navbar-dark .navbar-nav .nav-link {
+color: #fff;
+
+}
+/*  Este es para el elemento activo lo puedes omitir si asi deseas */
+.navbar-dark .navbar-nav .active>.nav-link  {
+ color: #a19171;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color:#a19171 !important;
+    
+}
+
+
+@font-face {
+    font-family: Lato-Bold;
+    src: url('../tipografia/Lato-Bold.tff');
+}
+
+.jumbotron_uno{
+	background-color: #fff;
+}
+
+.jumbotron_ritual {
+    margin-bottom: 0px;
+    background-image: url('../pub/BoxElPubRitual.jpg'); 
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+.titulos{
+	color: #a19171;
+}
+
+.card-title{
+
+	color: #a19171;
+}
